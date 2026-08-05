@@ -1,0 +1,18 @@
+{
+  "name": "Eraldo Carlos — Portfólio",
+  "short_name": "Portfólio",
+  "description": "Portfólio pessoal de Eraldo Carlos, desenvolvedor de software.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

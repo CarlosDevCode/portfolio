@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Página não encontrada</title>
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .error-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--gutter);
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .error-code {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--text-3);
+    margin-bottom: 18px;
+  }
+  .error-title {
+    font-size: clamp(28px, 5vw, 44px);
+    margin-bottom: 16px;
+  }
+  .error-desc {
+    color: var(--text-2);
+    margin-bottom: 32px;
+  }
+</style>
+</head>
+<body>
+  <div class="error-screen">
+    <span class="error-code">ERRO 404 · RECURSO NÃO ENCONTRADO</span>
+    <h1 class="error-title">Esta rota não existe.</h1>
+    <p class="error-desc">O endereço acessado não corresponde a nenhuma página deste portfólio. Verifique o link ou volte para a página inicial.</p>
+    <a class="btn btn-primary" href="/">Voltar ao início</a>
+  </div>
+</body>
+</html>
