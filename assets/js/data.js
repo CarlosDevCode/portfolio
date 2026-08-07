@@ -16,26 +16,24 @@ const SITE_DATA = {
   stack: {
     categories: ["Linguagens", "Front-end", "Back-end", "Banco de Dados", "Ferramentas"],
     items: [
-      { name: "Java", category: "Linguagens", level: 80, time: "2 anos", desc: "POO, coleções, streams e ecossistema Spring." },
-      { name: "JavaScript", category: "Linguagens", level: 75, time: "2 anos", desc: "ES6+, assíncrono, manipulação de DOM." },
-      { name: "Python", category: "Linguagens", level: 65, time: "1 ano", desc: "Scripts, automações e APIs com FastAPI." },
-      { name: "SQL", category: "Linguagens", level: 70, time: "2 anos", desc: "Modelagem relacional e consultas otimizadas." },
+      { name: "Java", category: "Linguagens", level: 80, time: "6 meses", desc: "POO, coleções, streams e ecossistema Spring." },
+      { name: "JavaScript", category: "Linguagens", level: 75, time: "6 meses", desc: "ES6+, assíncrono, manipulação de DOM." },
+      { name: "Python", category: "Linguagens", level: 65, time: "6 meses", desc: "Scripts, automações e APIs com FastAPI." },
+      { name: "SQL", category: "Linguagens", level: 70, time: "6 meses", desc: "Modelagem relacional e consultas otimizadas." },
 
-      { name: "HTML", category: "Front-end", level: 85, time: "3 anos", desc: "Semântica, acessibilidade e SEO on-page." },
-      { name: "CSS", category: "Front-end", level: 80, time: "3 anos", desc: "Layout responsivo, Grid, Flexbox e variáveis." },
-      { name: "JavaScript (DOM)", category: "Front-end", level: 75, time: "2 anos", desc: "Interfaces interativas sem frameworks." },
+      { name: "HTML", category: "Front-end", level: 85, time: "2 anos", desc: "Semântica, acessibilidade e SEO on-page." },
+      { name: "CSS", category: "Front-end", level: 80, time: "2 anos", desc: "Layout responsivo, Grid, Flexbox e variáveis." },
+      { name: "JavaScript (DOM)", category: "Front-end", level: 75, time: "6 meses", desc: "Interfaces interativas sem frameworks." },
 
       { name: "Spring Boot", category: "Back-end", level: 70, time: "1 ano", desc: "APIs REST, camadas de serviço e persistência." },
       { name: "FastAPI", category: "Back-end", level: 60, time: "8 meses", desc: "APIs leves e tipadas em Python." },
 
-      { name: "MySQL", category: "Banco de Dados", level: 75, time: "2 anos", desc: "Modelagem, índices e queries de produção." },
-      { name: "SQLite", category: "Banco de Dados", level: 70, time: "1 ano", desc: "Persistência local para projetos menores." },
+      { name: "SQLite", category: "Banco de Dados", level: 70, time: "6 meses", desc: "Persistência local para projetos menores." },
 
       { name: "Git", category: "Ferramentas", level: 85, time: "3 anos", desc: "Fluxo de branches, rebase e revisão de código." },
       { name: "GitHub", category: "Ferramentas", level: 85, time: "3 anos", desc: "Versionamento, Actions e Pages." },
       { name: "VSCode", category: "Ferramentas", level: 90, time: "3 anos", desc: "Ambiente principal de desenvolvimento." },
       { name: "Eclipse", category: "Ferramentas", level: 65, time: "1 ano", desc: "Projetos Java acadêmicos e corporativos." },
-      { name: "Docker", category: "Ferramentas", level: 40, time: "3 meses", desc: "Containerização de serviços em estudo." },
       { name: "Linux", category: "Ferramentas", level: 70, time: "2 anos", desc: "Terminal como ambiente de trabalho principal." },
     ],
   },
